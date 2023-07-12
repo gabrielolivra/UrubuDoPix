@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrubuDoPix", "UrubuDoPix.csproj", "{ACD95D1B-BDB5-4FEF-8DB6-A1D54A92DECE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACD95D1B-BDB5-4FEF-8DB6-A1D54A92DECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD95D1B-BDB5-4FEF-8DB6-A1D54A92DECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD95D1B-BDB5-4FEF-8DB6-A1D54A92DECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD95D1B-BDB5-4FEF-8DB6-A1D54A92DECE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {929C271D-B170-4C6D-B597-69944E8754B2}
+	EndGlobalSection
+EndGlobal
