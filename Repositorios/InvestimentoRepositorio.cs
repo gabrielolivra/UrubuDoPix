@@ -33,10 +33,12 @@ namespace UrubuDoPix.Repositorios
 
         public async Task<PixModel> AdicionarInvestimento(PixModel pix)
         {
+            pix.Retorno = pix.Investimento * 10; // Usando o sufixo 'L' para indicar o tipo long
             await _dbContext.Pix.AddAsync(pix);
             await _dbContext.SaveChangesAsync();
             return pix;
         }
+
 
         public async Task<bool> Apagar(int id)
         {

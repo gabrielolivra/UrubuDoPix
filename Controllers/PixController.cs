@@ -31,9 +31,15 @@ namespace UrubuDoPix.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<PixModel>> AdicionarInvestimento([FromBody] PixModel pixModel)
+        public async Task<ActionResult<PixModel>> AdicionarInvestimento(int investimento)
         {
-            PixModel pix = await _investimentosPix.AdicionarInvestimento(pixModel);
+            PixModel pix = new PixModel
+            {
+                Investimento = investimento,
+                Retorno = investimento * 10
+            };
+
+            await _investimentosPix.AdicionarInvestimento(pix);
             return Ok(pix);
         }
 

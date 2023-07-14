@@ -4,6 +4,7 @@
     {
         public int Id { get; set; }
         public int Investimento { get; set; }
-        public int Retorno { get; set;}
+        public int Retorno { get; set; }
     }
+
 }
